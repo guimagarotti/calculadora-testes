@@ -1,4 +1,4 @@
-package com.mycompany.calculadora;
+package calculadora.junit;
 
 public class Subtracao {
     //Método que realiza a subtração de dois valores

@@ -1,4 +1,4 @@
-package com.mycompany.calculadora;
+package calculadora.junit;
 
 public class Divisao {
     //Método que realiza a divisão de dois valores

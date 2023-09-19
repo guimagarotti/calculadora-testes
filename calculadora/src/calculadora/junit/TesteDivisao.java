@@ -1,4 +1,4 @@
-package com.mycompany.calculadora;
+package calculadora.junit;
 
 public class TesteDivisao {
     public static void main(String[] args) {

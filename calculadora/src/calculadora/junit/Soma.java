@@ -1,4 +1,4 @@
-package com.mycompany.calculadora;
+package calculadora.junit;
 
 public class Soma {
     //Método que realiza a soma de dois valores

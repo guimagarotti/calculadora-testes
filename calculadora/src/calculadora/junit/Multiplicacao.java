@@ -1,4 +1,4 @@
-package com.mycompany.calculadora;
+package calculadora.junit;
 
 public class Multiplicacao {
     //Método que realiza a multiplicação de dois valores

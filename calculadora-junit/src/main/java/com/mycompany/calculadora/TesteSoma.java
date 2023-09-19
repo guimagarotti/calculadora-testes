@@ -1,10 +1,11 @@
 package com.mycompany.calculadora;
+import org.
 
 public class TesteSoma {
     
     public static void main(String[] args) {
         Soma calc = new Soma();
-        
+        @Test
         //SOMA
         System.out.println("SOMA");
         //Soma com dois valores maiores que 1.000

@@ -1,6 +1,6 @@
-# Calculadora em Java
+# Calculadora em Java e Documentação JavaDoc
 
-Este é um projeto de calculadora simples, utilizando a linguagem de programação Java, que utiliza adicionalmente a ferramenta JUnit para testes de unidade.
+Este é um projeto de calculadora simples, utilizando a linguagem de programação Java, que utiliza adicionalmente a ferramenta JUnit para realização de testes unitários.
 
 ## O que o projeto faz
 
@@ -8,18 +8,11 @@ Este projeto é responsável por implementar soluções de uma calculadora, que 
 
 ## Por que o projeto é útil
 
-  Esta calculadora pode ser útil para estudantes, desenvolvedores e qualquer pessoa que precise realizar cálculos matemáticos simples em um ambiente de desenvolvimento Java. Além disso, é uma ótima ferramenta
-para desenvolvedores iniciantes, que precisam adquirir competências em sua carreira profissional.
+Esta calculadora pode ser útil para estudantes, desenvolvedores e qualquer pessoa que precise realizar cálculos matemáticos simples em um ambiente de desenvolvimento Java. Além disso, é uma ótima ferramenta para desenvolvedores iniciantes, que precisam adquirir competências em sua carreira profissional.
 
 ## Como os usuários podem começar a usar o projeto
 ### Clone o repositório:
-   <code>git clone https://github.com/guimagarotti/calculadora-testes.git</code>
-
-### Navegue até o diretório:
-    cd calculadora
-
-### Execute os testes de unidade usando o JUnit:
-  <code>java -cp .:junit-<versao>.jar:hamcrest-core-<versao>.jar org.junit.runner.JUnitCore CalculatorTest</code>
+   <code>git clone https://github.com/guimagarotti/magarotti-calculator.git</code>
 
 ### Agora você pode usar a calculadora em seus próprios projetos Java acessando a classe de Teste da Operação Desejada:
 
@@ -34,7 +27,6 @@ public class Main {
     }
 }
 ```
-
 
 ## Onde os usuários podem obter ajuda com seu projeto
   Se você precisar de ajuda com este projeto, sinta-se à vontade para abrir uma issue em meu GitHub.

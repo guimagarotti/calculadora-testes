@@ -1,28 +1,36 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
- */
 package calculadora.junit;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
  * @author guima
+ * @version 1.0
+ * @since Release 1.0 da aplicação
+ * 
+ *  Esta classe representa a realização de testes com JUnit na classe Divisao.
  */
 public class TesteDivisaoTest {
-    
+	/**
+	 * Método responsável por realizar o teste da operação de divisão, 
+	 * instanciando a classe Divisao, chamando seu método e passando os parâmetros 
+	 * necessários para armazenar o valor da operação. Posteriormente, utilizando uma
+	 * variável de referência, realiza o teste da classe com o assertEquals.  
+	 * 
+	 * @author guima
+	 * @return Mensagem de status de validação do resultado via console.
+	 */
     @Test
     public void testeMetodoDivisao() {
-        // Configuração inicial de instância para teste
-        Divisao classeDivisao = new Divisao();
-
-        // Chama o método que você deseja testar
-        int resultado = classeDivisao.divisao(125, 25);
-
-        // Verifica o resultado usando asserções do JUnit
-        assertEquals(12, resultado); // Verifica se o resultado é igual a 12
+    	Divisao classeDivisao = new Divisao();
+    	
+    	Double num1 = 15.0;
+    	Double num2 = 5.0;
+    	
+    	Double resultado = classeDivisao.divisao(num1, num2);
+    	Double expected = 3.0;
+    	
+    	assertEquals(expected, resultado);
     }    
     
 }

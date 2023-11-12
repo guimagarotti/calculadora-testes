@@ -12,17 +12,26 @@ import static org.junit.Assert.*;
  * @author guima
  */
 public class TesteSubtracaoTest {
-    
+	/**
+	 * Método responsável por realizar o teste da operação de subtração, 
+	 * instanciando a classe Subtracao, chamando seu método e passando os parâmetros 
+	 * necessários para armazenar o valor da operação. Posteriormente, utilizando uma
+	 * variável de referência, realiza o teste da classe com o assertEquals. 
+	 * 	 
+	 * @author guima 
+	 * @return Mensagem de status de validação do resultado via console.
+	 */
     @Test
     public void testeMetodoSubtracao() {
-        // Configuração inicial de instância para teste
         Subtracao classeSubtracao = new Subtracao();
 
-        // Chama o método que você deseja testar
-        int resultado = classeSubtracao.subtracao(25, 14);
-
-        // Verifica o resultado usando asserções do JUnit
-        assertEquals(11, resultado); // Verifica se o resultado é igual a 11
+        Double num1 = 5.0;
+    	Double num2 = 3.0;
+    	
+    	Double resultado = classeSubtracao.subtracao(num1, num2);
+    	Double expected = 2.0;
+    	
+    	assertEquals(expected, resultado);
     }    
     
 }

@@ -5,8 +5,8 @@ import static org.junit.Assert.*;
 
 /**
  * @author guima
- * @version 1.0
- * @since Release 1.0 da aplicação
+ * @version 1.2
+ * @since Release 1.2 da aplicação - 12/11/2023
  * 
  *  Esta classe representa a realização de testes com JUnit na classe Multiplicacao.
  */

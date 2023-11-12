@@ -1,15 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
- */
 package calculadora.junit;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
  * @author guima
+ * @version 1.2
+ * @since Release 1.2 da aplicação - 12/11/2023
+ * 
+ *  Esta classe representa a realização de testes com JUnit na classe Subtracao.
  */
 public class TesteSubtracaoTest {
 	/**

@@ -2,8 +2,8 @@ package calculadora.junit;
 
 /**
  * @author guima
- * @version 1.0
- * @since Release 1.0 da aplicação
+ * @version 1.2
+ * @since Release 1.2 da aplicação - 12/11/2023
  * 
  *  Esta classe representa a operação de multiplicação da calculadora.
  */

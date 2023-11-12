@@ -24,11 +24,11 @@ public class TesteSomaTest {
     public void testeMetodoSoma() {
         Soma classeSoma = new Soma();
 
-        Double num1 = 5.0;
-    	Double num2 = 3.0;
+        Double num1 = 5.0; // Variável referente ao número 1.
+    	Double num2 = 3.0; // Variável referente ao número 2.
     	
     	Double resultado = classeSoma.soma(num1, num2);
-    	Double expected = 8.0;
+    	Double expected = 8.0; // Variável referente ao resultado esperado.
     	
     	assertEquals(expected, resultado);
     }    

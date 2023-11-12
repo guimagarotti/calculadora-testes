@@ -24,11 +24,11 @@ public class TesteDivisaoTest {
     public void testeMetodoDivisao() {
     	Divisao classeDivisao = new Divisao();
     	
-    	Double num1 = 15.0;
-    	Double num2 = 5.0;
+    	Double num1 = 15.0; // Variável referente ao número 1.
+    	Double num2 = 5.0; // Variável referente ao número 2.
     	
     	Double resultado = classeDivisao.divisao(num1, num2);
-    	Double expected = 3.0;
+    	Double expected = 3.0; // Variável referente ao resultado esperado.
     	
     	assertEquals(expected, resultado);
     }    

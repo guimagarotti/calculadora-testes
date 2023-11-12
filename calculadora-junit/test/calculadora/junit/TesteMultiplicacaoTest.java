@@ -24,11 +24,11 @@ public class TesteMultiplicacaoTest {
     public void testeMetodoMultiplicacao() {
         Multiplicacao classeMultiplicacao = new Multiplicacao();
         
-        Double num1 = 5.0;
-    	Double num2 = 3.0;
+        Double num1 = 5.0; // Variável referente ao número 1.
+    	Double num2 = 3.0; // Variável referente ao número 2.
     	
     	Double resultado = classeMultiplicacao.multiplicacao(num1, num2);
-    	Double expected = 15.0;
+    	Double expected = 15.0; // Variável referente ao resultado esperado.
     	
     	assertEquals(expected, resultado);
     }    

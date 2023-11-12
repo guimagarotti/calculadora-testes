@@ -24,11 +24,11 @@ public class TesteSubtracaoTest {
     public void testeMetodoSubtracao() {
         Subtracao classeSubtracao = new Subtracao();
 
-        Double num1 = 5.0;
-    	Double num2 = 3.0;
+        Double num1 = 5.0; // Variável referente ao número 1.
+    	Double num2 = 3.0; // Variável referente ao número 2.
     	
     	Double resultado = classeSubtracao.subtracao(num1, num2);
-    	Double expected = 2.0;
+    	Double expected = 2.0; // Variável referente ao resultado esperado.
     	
     	assertEquals(expected, resultado);
     }    
